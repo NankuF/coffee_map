@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_55b550c69202ec8493c62af213ab1b19 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_55b550c69202ec8493c62af213ab1b19" ></div>
+        
+</body>
+<script>    
+    
+            var map_55b550c69202ec8493c62af213ab1b19 = L.map(
+                "map_55b550c69202ec8493c62af213ab1b19",
+                {
+                    center: [55.50187, 37.54842],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ec7411357689f96b17d4292d0881574a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_55b550c69202ec8493c62af213ab1b19);
+        
+    
+            var marker_b03bdaf65004e9e00f056c13b3ee904f = L.marker(
+                [55.52417569079854, 37.51783900000001],
+                {}
+            ).addTo(map_55b550c69202ec8493c62af213ab1b19);
+        
+    
+        var popup_ace0cf1c6e3b0081e88c2eb1595bc352 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e01667d0fa13fc9132236220c26a906c = $(`<div id="html_e01667d0fa13fc9132236220c26a906c" style="width: 100.0%; height: 100.0%;"><i>город Москва, поселение Воскресенское, Чечёрский проезд, дом 51</i></div>`)[0];
+            popup_ace0cf1c6e3b0081e88c2eb1595bc352.setContent(html_e01667d0fa13fc9132236220c26a906c);
+        
+
+        marker_b03bdaf65004e9e00f056c13b3ee904f.bindPopup(popup_ace0cf1c6e3b0081e88c2eb1595bc352)
+        ;
+
+        
+    
+    
+            marker_b03bdaf65004e9e00f056c13b3ee904f.bindTooltip(
+                `<div>
+                     Jeffreys coffee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5401b019f31e2d7ca432eca824f71b88 = L.marker(
+                [55.536224, 37.51553],
+                {}
+            ).addTo(map_55b550c69202ec8493c62af213ab1b19);
+        
+    
+        var popup_fc633966b6adaff46f1dc07d3bca145a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1965ba1c3a087ce0752764a3ef44b59f = $(`<div id="html_1965ba1c3a087ce0752764a3ef44b59f" style="width: 100.0%; height: 100.0%;"><i>город Москва, улица Бунинская Аллея, дом 7</i></div>`)[0];
+            popup_fc633966b6adaff46f1dc07d3bca145a.setContent(html_1965ba1c3a087ce0752764a3ef44b59f);
+        
+
+        marker_5401b019f31e2d7ca432eca824f71b88.bindPopup(popup_fc633966b6adaff46f1dc07d3bca145a)
+        ;
+
+        
+    
+    
+            marker_5401b019f31e2d7ca432eca824f71b88.bindTooltip(
+                `<div>
+                     Кофе КиС
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_951b79325774e23f741b4e8cb3399ae1 = L.marker(
+                [55.54610169703953, 37.54916599999999],
+                {}
+            ).addTo(map_55b550c69202ec8493c62af213ab1b19);
+        
+    
+        var popup_7fcdef945996d79cdaf3235dcffc2237 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42a6e15091a8333bb5c621c090330f43 = $(`<div id="html_42a6e15091a8333bb5c621c090330f43" style="width: 100.0%; height: 100.0%;"><i>город Москва, бульвар Адмирала Ушакова, дом 11</i></div>`)[0];
+            popup_7fcdef945996d79cdaf3235dcffc2237.setContent(html_42a6e15091a8333bb5c621c090330f43);
+        
+
+        marker_951b79325774e23f741b4e8cb3399ae1.bindPopup(popup_7fcdef945996d79cdaf3235dcffc2237)
+        ;
+
+        
+    
+    
+            marker_951b79325774e23f741b4e8cb3399ae1.bindTooltip(
+                `<div>
+                     DALE CUPS coffee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_756e69335dc28462a14da8766dc8da87 = L.marker(
+                [55.56532370252107, 37.55606499999999],
+                {}
+            ).addTo(map_55b550c69202ec8493c62af213ab1b19);
+        
+    
+        var popup_dcb33ee3afcc02b9a2674841643cbb42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed334314879a5ac812e69132063d0123 = $(`<div id="html_ed334314879a5ac812e69132063d0123" style="width: 100.0%; height: 100.0%;"><i>город Москва, улица Поляны, дом 8</i></div>`)[0];
+            popup_dcb33ee3afcc02b9a2674841643cbb42.setContent(html_ed334314879a5ac812e69132063d0123);
+        
+
+        marker_756e69335dc28462a14da8766dc8da87.bindPopup(popup_dcb33ee3afcc02b9a2674841643cbb42)
+        ;
+
+        
+    
+    
+            marker_756e69335dc28462a14da8766dc8da87.bindTooltip(
+                `<div>
+                     Coffee Like
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f0d97265239b2e932fa454aecf10f6c = L.marker(
+                [55.56974570378344, 37.579064],
+                {}
+            ).addTo(map_55b550c69202ec8493c62af213ab1b19);
+        
+    
+        var popup_f11162c67d78faea58c21af25315caf8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ec12932670b67ca4fff7dbbe8dba0ba = $(`<div id="html_2ec12932670b67ca4fff7dbbe8dba0ba" style="width: 100.0%; height: 100.0%;"><i>город Москва, Старокачаловская улица, дом 5А</i></div>`)[0];
+            popup_f11162c67d78faea58c21af25315caf8.setContent(html_2ec12932670b67ca4fff7dbbe8dba0ba);
+        
+
+        marker_7f0d97265239b2e932fa454aecf10f6c.bindPopup(popup_f11162c67d78faea58c21af25315caf8)
+        ;
+
+        
+    
+    
+            marker_7f0d97265239b2e932fa454aecf10f6c.bindTooltip(
+                `<div>
+                     Кофе с собой
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
