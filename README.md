@@ -21,6 +21,9 @@ Linux<br>
 ```
 4. Установите зависимости:<br> 
 ```commandline
+cd coffee_map
+```
+```commandline
 pip install -r requirements.txt
 ```
 5. Создайте файл `.env` и добавьте в него ключ апи полученный в Яндексе
