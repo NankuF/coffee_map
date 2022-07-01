@@ -81,7 +81,7 @@ def main():
     env.read_env()
     ya_apikey = env.str('YA_APIKEY')
 
-    with open('coffee.json', 'r') as file:
+    with open('coffee.json', 'r', encoding='CP1251') as file:
         cafes = json.loads(file.read())
 
     address = fetch_coordinates(ya_apikey, input('Где вы находитесь?: '))
